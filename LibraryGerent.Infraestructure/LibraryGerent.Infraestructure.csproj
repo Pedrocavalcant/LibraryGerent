@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LibraryGerent.Aplication\LibraryGerent.Aplication.csproj" />
     <ProjectReference Include="..\LibraryGerent.Domain\LibraryGerent.Domain.csproj" />
     <ProjectReference Include="..\LibraryGerent.Exception\LibraryGerent.Exception.csproj" />
