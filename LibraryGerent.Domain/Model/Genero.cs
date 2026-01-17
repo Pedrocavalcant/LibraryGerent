@@ -1,4 +1,6 @@
-﻿namespace LibraryGerent.Domain.Model;
+﻿using LibraryGerent.Domain.Enums;
+
+namespace LibraryGerent.Domain.Model;
 
 public class Genero
 {
