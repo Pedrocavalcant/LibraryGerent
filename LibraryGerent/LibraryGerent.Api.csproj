@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\LibraryGerent.Aplication\LibraryGerent.Aplication.csproj" />
     <ProjectReference Include="..\LibraryGerent.Communication\LibraryGerent.Communication.csproj" />
     <ProjectReference Include="..\LibraryGerent.Exception\LibraryGerent.Exception.csproj" />
