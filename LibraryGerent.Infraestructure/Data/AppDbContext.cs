@@ -11,7 +11,7 @@ public class AppDbContext : DbContext
 
     public DbSet<Livro> Livros { get; set; }
     public DbSet<Genero> Generos { get; set; }
-    public DbSet<Cliente> Clientes { get; set; }
+    public DbSet<Pessoa> Clientes { get; set; }
     public DbSet<Movimento> Movimentos { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

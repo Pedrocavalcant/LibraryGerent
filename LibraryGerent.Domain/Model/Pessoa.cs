@@ -1,8 +1,8 @@
 ﻿namespace LibraryGerent.Domain.Model;
 
-public class Cliente
+public class Pessoa
 {
-    public int ClienteID { get; set; }
+    public int PessoaID { get; set; }
     public string Nome { get; set; }
     public string? Fantasia { get; set; }
     public DateTime? DtCriacao { get; set; }
